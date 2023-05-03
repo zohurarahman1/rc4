@@ -1,2 +1,5 @@
-# rc4
- 
+# Installation
+
+make .
+
+./rc4r

@@ -1,14 +1,12 @@
 #include <string>
 #include <cstdio>
 #include <cstring>
-// #include "arc4.h"
 #include "rc4.cpp"
 
 #define BUF_SIZE 4096
 #define SALT_SIZE 8
 
 int main(int argc, char *argv[]) {
-    // ARC4 rc4;
     RC4 rc4;
     if (argc != 5 && argc != 6) {
         printf("incorrect usage: rc4 <encrypt|decrypt> <input> <output> <key> [salt]\n");
